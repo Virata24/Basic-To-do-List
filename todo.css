@@ -1,0 +1,38 @@
+body{
+background-color: lightyellow;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 70px;
+    border-bottom: 1px solid;
+}
+.entryList {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+
+}
+#entry {
+    text-align: center;
+    width: 800px;
+    height: 50px;
+    border-radius: 20px;
+    border: yellow;
+    font-size: 20px;
+} 
+  
+#submit {
+    text-align: center;
+
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
